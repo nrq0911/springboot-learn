@@ -1,0 +1,5 @@
+rootProject.name = 'learn'
+include 'springboot-dubbo-client'
+include 'springboot-dubbo-server'
+include 'springboot-elasticsearch'
+
