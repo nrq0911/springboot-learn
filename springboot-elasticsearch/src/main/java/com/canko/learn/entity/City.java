@@ -1,11 +1,14 @@
 package com.canko.learn.entity;
 
+import org.springframework.data.elasticsearch.annotations.Document;
+
 import java.io.Serializable;
 
 /**
  * 城市实体类
  * Created by nie on 17/5/22.
  */
+@Document(indexName = "cityindex", type = "city")
 public class City implements Serializable {
 
     private static final long serialVersionUID = -1L;
